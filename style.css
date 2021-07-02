@@ -1,0 +1,72 @@
+body {
+
+    background-color: hsl(185, 75%, 39%);
+	font-size: 80 px;
+	background-image: url(../img/bg-pattern-top.png), url(../img/bg-pattern-top.png)	; 
+	background-repeat: no-repeat, no-repeat;
+	background-size: 790px 798px, 798px 798px;
+    background-position: left -50% top -25%, right -50% bottom -25%;
+  	font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.2;
+
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    
+}
+
+.card{
+
+	background-color: white;
+	border-radius: 1em;
+    box-shadow: 0.25em 0.75em 1em 0.5em rgb(101 108 134 / 25%);
+    overflow: hidden;
+
+}
+.pattern img{
+	width: 20%;
+    border-radius: 10em;
+    border: 3px solid white;
+    position: relative;
+    top: 35px;
+
+}
+
+.pattern{
+	background-image: url(../img/bg-pattern-card.svg);
+	text-align: center;
+
+}
+.card-container{
+	text-align: center;
+	padding-top: 25px;
+}
+.location{
+
+	color: grey;
+	line-height: 1.6;
+}
+.card-footer{
+	display: flex;
+	justify-content: center;
+    border-top: solid 1px #eee;
+    padding-bottom: 10px;
+}
+
+
+.widget{
+	display: inline-block;
+	padding: 5px 10px;
+}
+.bottom-text{
+	position: absolute;
+	bottom: 0;
+	text-align: left;
+
+
+}
+
